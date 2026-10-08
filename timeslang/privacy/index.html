@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — TimeSlang</title>
+<link rel="icon" href="/assets/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/"><img src="/assets/apple-touch-icon.png" alt="Wild Boar Studios logo"><span>Wild Boar Studios</span></a>
+    <nav class="nav-links"><a href="/#apps">Apps</a><a href="/support/">Support</a></nav>
+  </div>
+</header>
+
+<main class="doc">
+  <a class="back" href="/">← Back to home</a>
+  <h1>Privacy Policy — TimeSlang</h1>
+  <p class="date">Last updated: October 8, 2026 · <em>Draft — pending App Store release</em></p>
+
+  <p>Wild Boar Studios ("we", "our", or "us") operates the TimeSlang mobile application. TimeSlang rewrites text you provide into the English of a chosen year, from Old English through the present day. TimeSlang is free and supported by advertising. This policy explains what data the app involves and the choices you have.</p>
+
+  <h2>The Short Version</h2>
+  <ul>
+    <li>We do <strong>not</strong> store the text you submit or the translations we return on our servers.</li>
+    <li>You are identified only by an <strong>anonymous ID</strong> generated on your device.</li>
+    <li>TimeSlang is <strong>ad-supported</strong>. We use <strong>Google AdMob</strong> to show ads.</li>
+    <li>We ask for your <strong>consent</strong> before showing personalized ads, and (on iOS) show Apple's App Tracking Transparency prompt. You can decline — the app still works, and you'll see non-personalized ads where required.</li>
+  </ul>
+
+  <h2>Content You Provide</h2>
+  <p>To produce a translation, the text you type and the year you choose are sent to our backend, which forwards the text to our AI provider (OpenAI) to generate the rewritten version. We do <strong>not</strong> persist your text or the generated translation on our servers — there is no server-side storage of your content. Your translation history is stored only on your device. Please avoid submitting sensitive personal information as text to be translated.</p>
+
+  <h2>Anonymous Identifier</h2>
+  <p>On first launch, the app generates a random anonymous identifier stored on your device. It is not linked to your real-world identity, Apple ID, email address, or Google account. We use it only to enforce fair-use limits (a per-device daily cap) that protect the free service from abuse.</p>
+
+  <h2>Advertising</h2>
+  <p>TimeSlang shows ads through <strong>Google AdMob</strong> to keep the app free. Depending on your region and your choices, AdMob may use a mobile advertising identifier (such as Apple's IDFA or an equivalent) to measure and, if you consent, personalize the ads you see.</p>
+  <ul>
+    <li><strong>Consent.</strong> Where required (for example, in the European Economic Area and the UK), we present Google's consent form before requesting ads, using Google's User Messaging Platform (UMP). On iOS, we also present Apple's App Tracking Transparency (ATT) prompt.</li>
+    <li><strong>Your choice is honored.</strong> If you do not consent to personalized ads, TimeSlang requests <strong>non-personalized</strong> ads only. If consent cannot be established, we suppress ads rather than serve non-consented ones.</li>
+    <li><strong>No ads before consent.</strong> The advertising SDK is not started, and no ad is requested, until the consent step above has completed.</li>
+  </ul>
+  <p>For details on how Google uses data from apps that use its services, see <a href="https://policies.google.com/technologies/partner-sites" rel="noopener" target="_blank">Google's policy</a> and the <a href="https://support.google.com/admob/answer/6128543" rel="noopener" target="_blank">AdMob</a> documentation.</p>
+
+  <h2>Purchases</h2>
+  <p>TimeSlang is free. It offers no in-app purchases, subscriptions, or accounts, so we do not collect or process any payment information.</p>
+
+  <h2>Third-Party Services</h2>
+  <table>
+    <tr><th>Provider</th><th>What is shared</th><th>Why</th></tr>
+    <tr><td>Google AdMob</td><td>Ad requests and, subject to your consent, an advertising identifier (e.g. IDFA)</td><td>Showing ads that keep the app free</td></tr>
+    <tr><td>Cloudflare</td><td>Requests, including the anonymous identifier</td><td>Hosting our backend</td></tr>
+    <tr><td>OpenAI</td><td>Text you submit for translation</td><td>Generating the rewritten text; not retained by us</td></tr>
+  </table>
+  <p>We do not sell your data. Aside from the advertising use described above, we do not share your data with advertisers or data brokers.</p>
+
+  <h2>Tracking</h2>
+  <p>TimeSlang uses an advertising identifier only for the advertising purposes described above, and only with your consent where required. We do not otherwise track you across apps or websites. You can change your choice at any time in your device's privacy settings (for example, iOS <em>Settings → Privacy &amp; Security → Tracking</em>).</p>
+
+  <h2>Children's Privacy</h2>
+  <p>TimeSlang is a general-audience app and is not directed to children. We do not knowingly collect personal information such as names, emails, or contact details from users of any age. Advertising shown in the app is not personalized to children.</p>
+
+  <h2>Data Retention and Deletion</h2>
+  <p>Your translation history lives only on your device; deleting the app removes it. We do not retain your text or translations on our servers. To request deletion of the limited server-side data associated with your anonymous identifier (fair-use counters), contact us below.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this policy from time to time. Changes will be posted here with an updated date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions? Contact us at <a href="mailto:support@wildboarstudios.io">support@wildboarstudios.io</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container"><div class="footer-legal" style="border-top:none">
+    <span>© <span id="yr"></span> Wild Boar Studios LLC. All rights reserved.</span>
+    <span><a href="mailto:support@wildboarstudios.io">support@wildboarstudios.io</a></span>
+  </div></div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
