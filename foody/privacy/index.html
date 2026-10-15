@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy — Foody</title>
+    <link rel="icon" href="/assets/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="/"><img src="/assets/apple-touch-icon.png" alt="Wild Boar Studios logo"><span>Wild Boar Studios</span></a>
+    <nav class="nav-links"><a href="/#apps">Apps</a><a href="/support/">Support</a></nav>
+  </div>
+</header>
+<main class="doc">
+    <a class="back" href="/">← Back to home</a>
+    <h1>Privacy Policy — Foody</h1>
+    <p class="date">Last updated: October 14, 2026 · <em>Draft — pending App Store release</em></p>
+
+    <p>Wild Boar Studios ("we", "our", or "us") operates the Foody mobile application. Foody generates recipes, meal plans, and shopping lists using AI. This page explains what data the app handles and how. We designed Foody to keep your personal data — your profile, your pantry, and your price overrides — on your own device, not on our servers.</p>
+
+    <h2>The Short Version</h2>
+    <ul>
+        <li>Your dietary profile, allergies, dislikes, equipment, pantry list, and any price overrides are stored <strong>only on your device</strong>. We never receive or store them.</li>
+        <li>You don't need an account to use Foody. On first launch the app is assigned an <strong>anonymous device identifier</strong> — no name, email, or phone number required.</li>
+        <li>Optionally signing in with Apple or Google links your saved recipes to an account so they carry over to a new device. We do not use sign-in for advertising, and we never see your Apple/Google password.</li>
+        <li>The recipe, meal-plan, and shopping-list text you request is sent to our AI provider (OpenAI) to generate results. Avoid typing sensitive personal information into these requests.</li>
+        <li>We do <strong>not</strong> use third-party advertising or tracking, and we do <strong>not</strong> use the advertising identifier (IDFA). We do not show ads.</li>
+    </ul>
+
+    <h2>Anonymous Device Identifier</h2>
+    <p>On first launch, Foody mints an anonymous account for your device and stores a device credential securely on the device (in the OS's secure storage). This identifier is not linked to your real-world identity unless you choose to sign in (see below). We use it to associate your saved recipes, AI usage, and (if applicable) subscription status with your installation.</p>
+
+    <h2>Your Profile, Pantry, and Price Overrides Stay on Your Device</h2>
+    <p>Your dietary profile (allergies, dislikes, diet and religious preferences, household size, kitchen equipment), your pantry list, and any custom price overrides are stored locally in the app's on-device database. They are included with each recipe request so the AI can take them into account, but our servers do not store them between requests and do not look them up by user. Uninstalling the app removes this data.</p>
+
+    <h2>Optional Sign-In (Apple / Google)</h2>
+    <p>Signing in with Apple or Google is optional and exists only so your saved recipes and disclaimer acceptance carry over to a new device. We verify the identity token Apple or Google gives us and store the resulting account identifier and, if provided, your email address. We never receive your Apple ID or Google account password. Signing in does not transmit your profile, pantry, or price overrides — those remain device-only even when signed in.</p>
+
+    <h2>AI-Generated Recipes, Meal Plans, and Images</h2>
+    <p>When you request a recipe, adjustment ("Adjust"), meal plan, or shopping list, the text you provide (and relevant parts of your on-device profile, such as allergies or equipment, used to shape the result) is sent to our backend, which forwards it to our AI provider (OpenAI) to generate a response. If you request a photo of a dish, a short text description of the dish is sent to OpenAI's image generation service. Please avoid entering sensitive personal information into free-text fields. Every price, nutrition estimate, and food-safety note in a generated recipe is an AI estimate, not a verified fact — see the in-app disclaimer.</p>
+
+    <h2>Voice Input</h2>
+    <p>If you use voice entry (for example, to describe a recipe request or add a pantry item), your device's built-in speech recognition converts your speech to text. Where your device supports on-device recognition, audio is not sent anywhere. Otherwise, the OS vendor (Apple or Google) may process the audio to produce a transcript. We do not receive or store your audio.</p>
+
+    <h2>Content Moderation</h2>
+    <p>Text you submit, and text our AI generates in response, is automatically screened by an automated moderation service (OpenAI's moderation endpoint) to detect disallowed content. No human review of your individual requests occurs as part of this check.</p>
+
+    <h2>Saved Recipes and Cloud Sync</h2>
+    <p>Recipes you explicitly save to your catalogue, along with any notes, ratings, or tags you add, are stored on our servers (hosted on Cloudflare) so they sync across your signed-in devices. Recipes you don't save, and recipes while you're not signed in beyond your current device, are not retained server-side beyond what's needed to generate and briefly cache them.</p>
+
+    <h2>Purchases</h2>
+    <p>If Foody offers optional premium features or subscriptions, all payment processing is handled by Apple or Google. We never receive or store your credit card number or financial account details — only your subscription status, associated with your device or account identifier.</p>
+
+    <h2>Third-Party Services</h2>
+    <table>
+        <tr><th>Provider</th><th>What is shared</th><th>Why</th></tr>
+        <tr><td>OpenAI</td><td>Recipe/meal-plan/shopping-list requests and generated text; dish descriptions for image generation; content submitted for moderation</td><td>Generating AI results; content moderation</td></tr>
+        <tr><td>Cloudflare</td><td>Requests, including your device/account identifier; saved recipes (if signed in)</td><td>Hosting our backend and storing your saved recipe catalogue</td></tr>
+        <tr><td>Apple</td><td>Sign in with Apple identity token (if you choose to sign in); purchases, if applicable</td><td>Optional account sign-in; payment processing</td></tr>
+        <tr><td>Google</td><td>Google Sign-In identity token (if you choose to sign in); purchases, if applicable</td><td>Optional account sign-in; payment processing</td></tr>
+    </table>
+    <p>We do not sell your data. We do not share your data with data brokers or advertisers.</p>
+
+    <h2>Usage Data</h2>
+    <p>We keep a basic usage ledger (which AI feature was used, an approximate cost, and a timestamp) associated with your device or account identifier, used to enforce fair-use limits and to understand feature usage. This is not shared with any third-party analytics or advertising service.</p>
+
+    <h2>Tracking</h2>
+    <p>Foody does not track you across apps or websites and does not use the advertising identifier (IDFA). We do not show ads.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Foody is a general-audience app and does not knowingly collect personal information from children. The app does not require a name, email, or other contact information to use its core features.</p>
+
+    <h2>Data Retention and Deletion</h2>
+    <p>Your profile, pantry, and price overrides live only on your device, so uninstalling the app removes them. You can delete your account from within the app, which removes your saved recipe catalogue and signs you out everywhere; a limited usage ledger (cost and feature-usage records, with your account identifier removed) may be retained for billing and abuse-prevention purposes.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy from time to time. Changes will be posted on this page with an updated date.</p>
+
+    <h2>Contact</h2>
+    <p>If you have questions about this privacy policy, contact us at <a href="mailto:support@wildboarstudios.io">support@wildboarstudios.io</a>.</p>
+</main>
+
+<footer class="site-footer">
+  <div class="container"><div class="footer-legal" style="border-top:none">
+    <span>© <span id="yr"></span> Wild Boar Studios LLC. All rights reserved.</span>
+    <span><a href="mailto:support@wildboarstudios.io">support@wildboarstudios.io</a></span>
+  </div></div>
+</footer>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
