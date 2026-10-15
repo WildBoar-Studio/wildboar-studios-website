@@ -27,9 +27,9 @@ h1,h2,h3{line-height:1.15;color:var(--green);margin:0 0 .4em}
 
 /* Header / nav */
 .site-header{position:sticky;top:0;z-index:20;background:var(--green)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:66px}
-.brand{display:flex;align-items:center;gap:10px;font-weight:700;color:#fff;font-size:18px}
-.brand img{width:34px;height:34px;border-radius:8px}
+.nav{display:flex;align-items:center;justify-content:space-between;height:74px}
+.brand{display:flex;align-items:center;gap:12px;font-weight:700;color:#fff;font-size:20px}
+.brand img{width:48px;height:48px}
 .brand:hover{text-decoration:none}
 .nav-links{display:flex;gap:26px;align-items:center}
 .nav-links a{color:#fff;font-weight:500;font-size:15px}
