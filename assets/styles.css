@@ -50,8 +50,7 @@ h1,h2,h3{line-height:1.15;color:var(--green);margin:0 0 .4em}
 /* Hero */
 .hero{text-align:center;padding:32px 0 28px}
 .hero img.logo{max-width:280px;width:55%;margin:0 auto 6px}
-.hero p.tag{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto 18px}
-.hero .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.hero p.tag{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto}
 
 /* Section */
 section{padding:56px 0}
