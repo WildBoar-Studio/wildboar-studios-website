@@ -63,6 +63,12 @@ section{padding:56px 0}
 .app-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);
   padding:28px;display:flex;flex-direction:column;gap:12px;transition:.15s}
 .app-card:hover{transform:translateY(-3px);box-shadow:0 12px 30px rgba(15,61,48,.10)}
+/* Each card tinted a very light version of its own icon's main color. */
+.app-card-windrunner{background:#eef6f9}
+.app-card-selah{background:#f9f6ee}
+.app-card-foody{background:#f9f2ee}
+.app-card-flipfall{background:#eef9f6}
+.app-card-yapit{background:#eeeef9}
 .app-card .row{display:flex;align-items:center;gap:14px}
 .app-icon{width:56px;height:56px;border-radius:14px;flex:none;display:grid;place-items:center;
   font-size:26px;color:#fff;font-weight:700;overflow:hidden}
