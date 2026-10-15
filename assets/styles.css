@@ -48,9 +48,9 @@ h1,h2,h3{line-height:1.15;color:var(--green);margin:0 0 .4em}
 .btn.ghost:hover{background:var(--green);color:var(--cream)}
 
 /* Hero */
-.hero{text-align:center;padding:64px 0 44px}
-.hero img.logo{max-width:440px;width:80%;margin:0 auto 8px}
-.hero p.tag{font-size:20px;color:var(--muted);max-width:640px;margin:0 auto 26px}
+.hero{text-align:center;padding:32px 0 28px}
+.hero img.logo{max-width:280px;width:55%;margin:0 auto 6px}
+.hero p.tag{font-size:18px;color:var(--muted);max-width:640px;margin:0 auto 18px}
 .hero .cta{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 
 /* Section */
