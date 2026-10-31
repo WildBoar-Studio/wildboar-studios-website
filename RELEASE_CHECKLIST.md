@@ -26,6 +26,16 @@ of each app. Nothing is broken in the meantime:
       URL for each new app.
 - [ ] Add the new app's App Store link to the website app card (replace "Coming soon").
 
+## Before ClassTrack first public release
+- [ ] Finalize the draft privacy policy (`/classtrack/privacy/`) — remove the "Draft — pending
+      Google Play release" note once reviewed (legal/compliance review of the Children's
+      Privacy wording and the backup/speech statements).
+- [ ] Google Play Console: Privacy policy URL → `https://wildboarstudios.io/classtrack/privacy/`;
+      contact/support → `https://wildboarstudios.io/support/` (support@wildboarstudios.io).
+- [ ] If ClassTrack ships on iOS: Support URL + Privacy URL as for Selah, and confirm the
+      Apple rows in the privacy policy match the iOS build.
+- [ ] Add the store link to the website app card (replace "Coming soon").
+
 ## Other (whenever convenient)
 - [ ] AdMob: after the marketing URLs above are live on a new version, open AdMob →
       Apps → View all apps → app-ads.txt → expand the app → "Check for updates" to

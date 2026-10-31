@@ -69,6 +69,7 @@ section{padding:56px 0}
 .app-card-foody{background:#f9f2ee}
 .app-card-flipfall{background:#eef9f6}
 .app-card-yapit{background:#eeeef9}
+.app-card-classtrack{background:#fbf3e8}
 .app-card .row{display:flex;align-items:center;gap:14px}
 .app-icon{width:56px;height:56px;border-radius:14px;flex:none;display:grid;place-items:center;
   font-size:26px;color:#fff;font-weight:700;overflow:hidden}

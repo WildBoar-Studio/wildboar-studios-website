@@ -14,6 +14,7 @@ why this repo was named `wildboar-studio.github.io` before it was renamed).
 /foody/privacy/       Foody privacy policy (draft, pre-release)
 /flipfall/privacy/    Flip Fall privacy policy (draft, pre-release)
 /yapit/privacy/       YapIt privacy policy (draft, pre-release)
+/classtrack/privacy/  ClassTrack privacy policy (draft, pre-release)
 /app-ads.txt          AdMob authorized-sellers (pub-1221342134311644)
 /assets/              styles.css, logos, favicons, OG image
 ```
