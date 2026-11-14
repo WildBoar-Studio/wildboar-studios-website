@@ -11,7 +11,7 @@ why this repo was named `wildboar-studio.github.io` before it was renamed).
 /support/             Support page (Apple support URL for all apps)
 /privacy/             The Wind Runner privacy policy
 /selah/privacy/       Selah: Bible Memory privacy policy
-/foody/privacy/       Foody privacy policy (draft, pre-release)
+/foody/privacy/       Foody.ai privacy policy
 /flipfall/privacy/    Flip Fall privacy policy (draft, pre-release)
 /yapit/privacy/       YapIt privacy policy (draft, pre-release)
 /classtrack/privacy/  ClassTrack privacy policy (draft, pre-release)
