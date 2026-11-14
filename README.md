@@ -12,6 +12,7 @@ why this repo was named `wildboar-studio.github.io` before it was renamed).
 /privacy/             The Wind Runner privacy policy
 /selah/privacy/       Selah: Bible Memory privacy policy
 /foody/privacy/       Foody.ai privacy policy
+/foody/delete-account/ Foody.ai account and data deletion (Play requirement)
 /flipfall/privacy/    Flip Fall privacy policy (draft, pre-release)
 /yapit/privacy/       YapIt privacy policy (draft, pre-release)
 /classtrack/privacy/  ClassTrack privacy policy (draft, pre-release)
