@@ -30,6 +30,9 @@ of each app. Nothing is broken in the meantime:
 - [ ] Finalize the draft privacy policy (`/classtrack/privacy/`) — remove the "Draft — pending
       Google Play release" note once reviewed (legal/compliance review of the Children's
       Privacy wording and the backup/speech statements).
+- [ ] Finalize the draft Terms of Service (`/classtrack/terms/`) — legal review (minors/parental
+      consent, Colorado venue, liability cap), then remove the "Draft" note. The voice-capture
+      text in both documents assumes the on-device-only build (classtrack PR #35) is what ships.
 - [ ] Google Play Console: Privacy policy URL → `https://wildboarstudios.io/classtrack/privacy/`;
       contact/support → `https://wildboarstudios.io/support/` (support@wildboarstudios.io).
 - [ ] If ClassTrack ships on iOS: Support URL + Privacy URL as for Selah, and confirm the
