@@ -37,7 +37,8 @@ of each app. Nothing is broken in the meantime:
       contact/support → `https://wildboarstudios.io/support/` (support@wildboarstudios.io).
 - [ ] If ClassTrack ships on iOS: Support URL + Privacy URL as for Selah, and confirm the
       Apple rows in the privacy policy match the iOS build.
-- [ ] Add the store link to the website app card (replace "Coming soon").
+- [x] Add the Google Play link to the website app card (done; `com.wildboar.classtrack`).
+- [ ] When the iOS build ships, add the App Store link to the ClassTrack card.
 
 ## Other (whenever convenient)
 - [ ] AdMob: after the marketing URLs above are live on a new version, open AdMob →
